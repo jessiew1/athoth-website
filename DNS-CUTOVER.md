@@ -68,7 +68,7 @@ Verify these browser addresses after HTTPS is enabled:
 | `https://athoth.com/` | Loads the Athoth Innovations home page from GitHub Pages |
 | `https://www.athoth.com/` | Redirects to `https://athoth.com/` |
 | `https://athoth.com/about` | Loads the About page through the Pages route fallback |
-| `https://athoth.com/our-work` | Loads the Our Work page through the Pages route fallback |
+| `https://athoth.com/projects` | Loads the Projects page through the Pages route fallback |
 | `https://athoth.com/assets/documents/athoth-capability-statement.pdf` | Opens the capability statement |
 
 ## Rollback
