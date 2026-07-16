@@ -1,0 +1,10 @@
+*.avif binary
+*.gif binary
+*.jpeg binary
+*.jpg binary
+*.pdf binary
+*.png binary
+*.webp binary
+
+# Unified diff context lines intentionally contain a single prefix space.
+*.patch whitespace=-trailing-space,-blank-at-eof
