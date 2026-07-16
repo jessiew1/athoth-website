@@ -1,0 +1,14 @@
+*.avif binary
+*.gif binary
+*.jpeg binary
+*.jpg binary
+*.pdf binary
+*.png binary
+*.webp binary
+
+# Generated production bundles are immutable deployment artifacts.
+assets/*.css binary
+assets/*.js binary
+
+# Unified diff context lines intentionally contain a single prefix space.
+*.patch whitespace=-trailing-space,-blank-at-eof

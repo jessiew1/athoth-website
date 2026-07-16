@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redirecting | Athoth Innovations</title>
+    <script>
+      const destination = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+      window.location.replace(`/?redirect=${encodeURIComponent(destination)}`);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to Athoth Innovations…</p>
+  </body>
+</html>
